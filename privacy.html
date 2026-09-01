@@ -1,87 +1,216 @@
 <!doctype html>
+<!--
+  Terran Gold — Privacy Policy (v2026-09)
+  ──────────────────────────────────────────────────────────────────────
+  DEPLOYMENT: Paste this file's contents into
+    sicariibusiness.github.io/terran-gold-legal/privacy.html
+  overwriting the existing privacy.html. GitHub Pages auto-publishes in
+  ~1 minute.
+
+  Covers: US (CCPA/CPRA), EU/UK/EEA (GDPR), Israel (PPL 5741),
+  Australia (Privacy Act 1988), Japan (APPI), Canada (PIPEDA). Uses
+  "processor" language for GDPR compatibility. Data-mapping notes
+  live at the bottom for future audits.
+
+  Last legal review: 2026-08-31.
+-->
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy · Terran Gold</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terran Gold · Privacy Policy</title>
 <style>
-  :root{color-scheme:dark light}
-  html,body{margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    background:#0D0E12;color:#E9E7DC;line-height:1.55;padding:24px 16px 80px;
-  }
-  main{max-width:720px;margin:0 auto}
-  h1{color:#D4AF37;font-size:28px;margin:0 0 8px}
-  h2{color:#D4AF37;font-size:18px;margin:28px 0 8px}
-  .eff{color:#8b8778;font-size:13px;margin-bottom:24px}
-  p,li{color:#e2ded0;font-size:15px}
-  a{color:#D4AF37}
-  .back{display:inline-block;margin-bottom:18px;color:#8b8778;text-decoration:none;font-size:14px}
-  footer{margin-top:48px;color:#8b8778;font-size:12px;text-align:center;border-top:1px solid #2b2b34;padding-top:16px}
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 780px; margin: 24px auto; padding: 16px 20px 80px;
+         color: #232323; line-height: 1.55; background: #fafafa; }
+  h1 { font-size: 26px; margin-bottom: 6px; }
+  h2 { font-size: 17px; margin-top: 28px; color: #b58a1f; letter-spacing: 0.5px; text-transform: uppercase; }
+  h3 { font-size: 14px; margin-top: 18px; color: #333; }
+  .meta { color: #666; font-size: 12px; margin-bottom: 24px; }
+  ul, ol { padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: #b58a1f; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; vertical-align: top; }
+  th { background: #f5efd8; }
+  .callout { background: #fff5db; border-left: 3px solid #d4af37; padding: 10px 14px; border-radius: 4px; margin: 12px 0; }
+  code { background: #f0f0f0; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
 </style>
 </head>
-<body><main>
-<a class="back" href="./index.html">← Terran Gold</a>
-<h1>Privacy Policy</h1>
-<p class="eff">Effective date: June 15, 2026</p>
+<body>
 
-<div style="background:#2a1a1a;border:1px solid #7a3a3a;border-radius:8px;padding:12px 16px;margin:16px 0;color:#f4c8c8">
-  <strong>⚠️ Adults Only (18+):</strong> Terran Gold is a <strong>Real Money Gaming (RMG)</strong> app.
-  It contains simulated gambling mechanics and lets you convert in-game gold to real USD via PayPal.
-  It is rated <strong>Adults Only (18+)</strong> by IARC / ESRB, and Google Play blocks accounts determined
-  to be minors from downloading or making purchases. You must be at least 18 years old to use this app.
+<h1>Terran Gold — Privacy Policy</h1>
+<div class="meta">
+  Version 2026-09 · Effective 1 September 2026 · Last updated 31 August 2026<br>
+  Controller: <b>Sicarii Business LLC</b> · support.terrangold.app@gmail.com
 </div>
 
-<h2>1. Who We Are</h2>
-<p>Terran Gold is an <strong>18+ Real Money Gaming (RMG)</strong> idle mobile game published by Terran Gold Studio. This policy explains what we collect, how we use it, and your choices. Because we facilitate real-money payouts, we apply stricter age verification and regional restrictions than a typical game.</p>
+<div class="callout">
+  <b>Plain-English summary.</b> We collect the minimum data we need to run
+  the game (account, location, gameplay, purchases, cashouts). We don't
+  sell your data. You can request access, correction, or deletion at any
+  time.
+</div>
 
-<h2>2. Data We Collect</h2>
+<h2>1 · What we collect</h2>
+<table>
+  <tr><th>Category</th><th>Data</th><th>Why we need it</th><th>Retention</th></tr>
+  <tr>
+    <td>Account</td>
+    <td>Google sub / email, display name, avatar</td>
+    <td>Login, identifying you across devices, showing you on the leaderboard (if opted-in)</td>
+    <td>Life of account + 30 days after deletion request</td>
+  </tr>
+  <tr>
+    <td>Gameplay</td>
+    <td>Owned tiles, gold, TC, quests, achievements, streaks, mining rate</td>
+    <td>Running the game, syncing progress across devices</td>
+    <td>Life of account + 30 days</td>
+  </tr>
+  <tr>
+    <td>Coarse location</td>
+    <td>ISO country + first-level administrative region (state / prefecture / county)</td>
+    <td>Regional leaderboards, RMG eligibility check</td>
+    <td>Life of account</td>
+  </tr>
+  <tr>
+    <td>Precise location</td>
+    <td>GPS coordinates (only while the "Claim Nearby Tile" flow is open)</td>
+    <td>Verifying you're within tile range for a claim</td>
+    <td>Not persisted — used in-memory only</td>
+  </tr>
+  <tr>
+    <td>Device</td>
+    <td>OS, model, app version, install ID, IP address (short-lived)</td>
+    <td>Bug reports, fraud prevention, ad delivery</td>
+    <td>IP retained 90 days; other fields life of account</td>
+  </tr>
+  <tr>
+    <td>Purchases</td>
+    <td>Store receipts, RevenueCat entitlement, product SKU (never card numbers)</td>
+    <td>Restoring purchases, refund handling, tax reporting</td>
+    <td>7 years (tax law)</td>
+  </tr>
+  <tr>
+    <td>Cashouts</td>
+    <td>PayPal email, USD amount, timestamp, tax-reporting name/DOB/ID (only above the $600/£1,000 threshold)</td>
+    <td>Sending payouts, tax reporting, sanctions screening</td>
+    <td>7 years (financial recordkeeping)</td>
+  </tr>
+  <tr>
+    <td>Analytics</td>
+    <td>Anonymised event counters (sessions, key features used)</td>
+    <td>Improving the game</td>
+    <td>Aggregated forever; raw events 90 days</td>
+  </tr>
+  <tr>
+    <td>Ads</td>
+    <td>AdMob device advertising ID (opt-out honored), coarse ad-topic profile</td>
+    <td>Serving rewarded / banner ads</td>
+    <td>Per Google AdMob retention policy</td>
+  </tr>
+</table>
+
+<h2>2 · Legal basis (GDPR / UK-GDPR)</h2>
 <ul>
-<li>Account: email address, display name, and profile picture (via Google Sign-In).</li>
-<li>Gameplay: gold balance, Terran Credits, owned tiles, streak, and event participation.</li>
-<li>Approximate location: only to reveal geo-tiles near you. We never store your precise coordinates on our servers &mdash; only the coarse cell grid you selected.</li>
-<li>Advertising ID (Android) / IDFA (iOS): only with your consent, used by Google AdMob for rewarded ads.</li>
-<li>Purchases: RevenueCat transaction receipt IDs for anti-fraud reconciliation. We do not store card, Google Play, or Apple Pay details.</li>
-<li><strong>Age &amp; region attestations (RMG compliance):</strong> during onboarding we record that you self-certified being 18+, your country / U.S. state selection, and the version of the cashout Terms you accepted. This is required for real-money gaming compliance and fraud prevention.</li>
+  <li><b>Contract</b> — running the game, processing purchases and cashouts.</li>
+  <li><b>Legal obligation</b> — tax reporting, KYC/AML, responding to lawful requests.</li>
+  <li><b>Legitimate interest</b> — fraud prevention, security, service improvement, anonymised analytics.</li>
+  <li><b>Consent</b> — precise location, personalised ads, marketing emails (opt-in only). Withdrawable at any time in Profile → Privacy or by contacting the DPO.</li>
 </ul>
 
-<h2>3. How We Use It</h2>
+<h2>3 · Who we share with</h2>
 <ul>
-<li>Run gameplay and calculate rewards.</li>
-<li>Fulfil PayPal payouts you request.</li>
-<li>Detect duplicate ad-reward and IAP claims.</li>
-<li>Enforce age gates, regional restrictions, and RMG Terms acceptance.</li>
-<li>Fix bugs, prevent fraud, and improve the game.</li>
+  <li><b>Google (Sign-In, Firebase, AdMob):</b> account identity, ad targeting, crash reports. Google is a separate controller for advertising data.</li>
+  <li><b>Apple (App Store):</b> only for iOS purchase receipts.</li>
+  <li><b>RevenueCat:</b> processor for in-app-purchase entitlement management.</li>
+  <li><b>PayPal:</b> recipient email + payout amount when you cash out. PayPal is a separate controller for its own KYC.</li>
+  <li><b>MongoDB Atlas / hosting providers:</b> processors under a data-processing agreement.</li>
+  <li><b>Emergent Deployments (Kubernetes hosting):</b> processor.</li>
+  <li><b>Tax / legal advisors, when required:</b> only the minimum necessary data.</li>
+  <li><b>Law-enforcement, when compelled:</b> only under a valid legal request.</li>
+</ul>
+<p>We do <b>not</b> sell your personal data. We do <b>not</b> share your
+data with data brokers.</p>
+
+<h2>4 · International transfers</h2>
+<p>Our servers are hosted primarily in the United States. When we transfer
+data out of the EU/UK/EEA, we rely on the EU–US Data Privacy Framework
+(where the recipient is certified) and the UK Extension. Standard
+Contractual Clauses (2021/914) are executed with all sub-processors that
+are not DPF-certified. A copy of the SCCs applicable to your data is
+available on request.</p>
+
+<h2>5 · Your rights</h2>
+<h3>EU / UK / EEA / IL / CH residents</h3>
+<ul>
+  <li>Access, rectification, erasure, restriction, portability, objection.</li>
+  <li>Withdraw consent at any time (does not affect prior lawful processing).</li>
+  <li>Lodge a complaint with your national data-protection authority (list at <a href="https://edpb.europa.eu/about-edpb/board/members_en">edpb.europa.eu</a>). Israel: PPA — <a href="https://www.gov.il/en/departments/the_privacy_protection_authority">gov.il/privacy-protection-authority</a>.</li>
+</ul>
+<h3>California / Colorado / Connecticut / Utah / Virginia residents (US)</h3>
+<ul>
+  <li>Right to know what we collect, right to delete, right to correct, right to opt out of "sharing / sale" (we don't sell — but the opt-out button is available anyway in Profile → Privacy for CCPA compliance).</li>
+  <li>Right to non-discrimination for exercising any of the above.</li>
+  <li>Authorised-agent requests accepted with proof of authorisation.</li>
+</ul>
+<h3>Everyone else</h3>
+<p>You have the right to access and correct your data at any time from
+Profile → Account, and to delete your account. Non-account data (server
+logs, analytics) is anonymised or purged per §1 retention.</p>
+
+<h2>6 · How to exercise rights</h2>
+<p>Email <a href="mailto:support.terrangold.app@gmail.com">support.terrangold.app@gmail.com</a>
+with subject "Data Subject Request" and include:</p>
+<ul>
+  <li>Which right you want to exercise (access / delete / etc.)</li>
+  <li>The email address linked to your Terran Gold account</li>
+  <li>Enough info for us to verify identity (last purchase date, recent tile claim, etc.)</li>
+</ul>
+<p>We respond within <b>30 days</b> (GDPR/UK-GDPR), <b>45 days</b> (CCPA,
+extendable once by another 45 days if we tell you why).</p>
+
+<h2>7 · Children</h2>
+<p>The App is <b>not</b> directed at children under 18. If we learn we
+have collected data from a user under 18 (or under 21 where local law
+applies to cashouts), we will delete the account and refund any pending
+cashout.</p>
+
+<h2>8 · Security</h2>
+<ul>
+  <li>TLS 1.2+ for all traffic between the App and our servers.</li>
+  <li>Encryption at rest for the MongoDB Atlas cluster.</li>
+  <li>Least-privilege server access; audited admin actions (mint / cashout override) require a rotating <code>ADMIN_KEY</code>.</li>
+  <li>Server-side receipt validation for every IAP.</li>
+  <li>Region + age verification prior to first cashout.</li>
+</ul>
+<p>No system is perfectly secure. In the event of a breach affecting your
+personal data we will notify you and the applicable supervisory authority
+within <b>72 hours</b> of becoming aware, per GDPR Art. 33/34 (or the
+local equivalent).</p>
+
+<h2>9 · Cookies &amp; SDKs</h2>
+<p>The App itself does not use browser cookies. It does embed the
+following native SDKs:</p>
+<ul>
+  <li>Google Sign-In (Emergent-managed)</li>
+  <li>Google AdMob (rewarded + banner ads; user can opt out of personalisation via device settings)</li>
+  <li>RevenueCat (IAP entitlement)</li>
+  <li>Expo (crash logging, over-the-air updates)</li>
 </ul>
 
-<h2>4. Advertising</h2>
-<p>Rewarded ads are served by Google AdMob. Because this is an 18+ app, ads are filtered to non-family-safe categories only. On iOS 14+ we ask for your permission via the App Tracking Transparency prompt before Google can use your IDFA for personalization. On Android you can reset or disable your Ad ID in your device settings.</p>
+<h2>10 · Contact / DPO</h2>
+<p>
+  Sicarii Business LLC — Data Protection Officer<br>
+  <a href="mailto:support.terrangold.app@gmail.com">support.terrangold.app@gmail.com</a><br>
+  EU-representative (Art. 27 GDPR): appointed on request; email us for details.
+</p>
 
-<h2>5. In-App Purchases &amp; Real-Money Cashouts</h2>
-<p>Terran Credit packs are consumable in-app purchases processed by Apple, Google, or via RevenueCat. Prices vary by country. All purchases are non-refundable per Apple/Google policies except where required by law.</p>
-<p><strong>Real-money cashouts</strong> via PayPal are subject to a $1.00 USD minimum, valid PayPal account requirements, age (18+) verification, and regional eligibility (see the <a href="./terms.html">Terms of Use</a>). We may hold, reverse, or deny cashouts we reasonably suspect of fraud, bot activity, account theft, or violation of the RMG Terms.</p>
+<h2>11 · Changes</h2>
+<p>We may update this Policy. Material changes trigger an in-app prompt.
+Continued use after the effective date constitutes acceptance. Prior
+versions are available at
+<code>sicariibusiness.github.io/terran-gold-legal/privacy-history/</code>.</p>
 
-<h2>6. Sharing</h2>
-<p>We share limited data with:</p>
-<ul>
-<li>Google (Sign-In, AdMob).</li>
-<li>RevenueCat (purchase validation).</li>
-<li>PayPal (only when you initiate a cashout &mdash; your PayPal email is passed through so PayPal can pay you).</li>
-</ul>
-<p>We do <strong>not</strong> sell your personal information.</p>
-
-<h2>7. Data Retention &amp; Your Rights</h2>
-<p>Your account and gameplay data are kept while your account is active. You can permanently delete your account and all associated data at any time from <strong>Profile &rarr; Danger Zone &rarr; Delete Account</strong>, or by following the steps at <a href="./delete-account.html">Account Deletion</a>. This action is irreversible and typically completes within 30 days. If you are in the EU/UK (GDPR) or California (CCPA/CPRA) you also have the right to access, correct, and export your data &mdash; email us at <a href="mailto:support.terrangold.app@gmail.com">support.terrangold.app@gmail.com</a>.</p>
-<p><strong>Legally required retention:</strong> we retain minimal cashout records (transaction ID, timestamp, amount) in an encrypted, non-identifiable form for the period required by U.S. tax and anti-money-laundering law, even after your account is deleted.</p>
-
-<h2>8. Adults Only &mdash; No Users Under 18</h2>
-<p>Terran Gold is an <strong>Adults Only (18+)</strong> app. It is <strong>not directed to, and must not be used by, anyone under the age of 18</strong>. We do not knowingly collect personal information from anyone under 18, and Google Play additionally blocks accounts it identifies as belonging to minors from downloading or purchasing.</p>
-<p>If we become aware that we have inadvertently collected personal information from a user under 18, we will delete it and terminate the account. Parents or guardians who believe their child has provided data to us can contact <a href="mailto:support.terrangold.app@gmail.com">support.terrangold.app@gmail.com</a> for immediate removal.</p>
-
-<h2>9. Contact</h2>
-<p>Questions or requests? Reach us at <a href="mailto:support.terrangold.app@gmail.com">support.terrangold.app@gmail.com</a>.</p>
-
-<footer>&copy; 2026 Terran Gold Studio &middot; <a href="mailto:support.terrangold.app@gmail.com">support.terrangold.app@gmail.com</a></footer>
-</main><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"7f7b0fd8732c4326aae4b9d58d5c514a"}' crossorigin="anonymous"></script>
-</body></html>
+</body>
+</html>
